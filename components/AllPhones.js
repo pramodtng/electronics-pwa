@@ -6,7 +6,7 @@ const AllPhones = ({ phones }) => {
   const STRAPI_BASEURL = 'https://admin.tashielectronics.com'
   return (
     <div className='bg-white'>
-      <div className='mx-auto max-w-2xl py-2 px-4 sm:px-6 lg:max-w-7xl lg:px-4'>
+      <div className='mx-auto py-2 lg:max-w-7xl'>
         <div className='mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-3 lg:grid-cols-4 xl:gap-x-8'>
           {
             phones.data.map(function (datas) {
