@@ -22,7 +22,7 @@ const Phones = ({ post }) => {
         <title> {post.attributes.title.toString()} </title>
       </Head>
       <div className="md:flex items-start justify-center py-6 2xl:px-20 md:px-6 px-4 shadow-lg rounded-lg border-black">
-        <Link href="/phones">
+        <Link href="/">
           <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 16l-4-4m0 0l4-4m-4 4h18" />
@@ -241,7 +241,7 @@ const Phones = ({ post }) => {
                       <h2 className="mr-10 text-4xl font-bold leading-none md:text-4xl text-center pb-5">
                         Phone Availability Store Wise
                       </h2>
-                      <div className="flex flex-wrap">
+                      <div className="flex justify-center">
                         <div className="phonedetail-modal w-full max-w-full mb-8 sm:w-1/2 px-4 lg:w-full flex flex-col justify-center items-center">
                           {parse(post.attributes.availability.data.attributes.availability)}
                         </div>
