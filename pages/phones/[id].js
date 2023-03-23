@@ -242,7 +242,7 @@ const Phones = ({ post }) => {
                         Phone Availability Store Wise
                       </h2>
                       <div className="flex justify-center">
-                        <div className="phonedetail-modal w-full max-w-full mb-8 sm:w-1/2 px-4 lg:w-full flex flex-col justify-center items-center">
+                        <div className="phonedetail-modal w-full max-w-full mb-8 px-4 lg:w-full flex flex-col justify-center items-center">
                           {parse(post.attributes.availability.data.attributes.availability)}
                         </div>
                       </div>
