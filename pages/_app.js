@@ -7,7 +7,6 @@ export default function App({ Component, pageProps }) {
       (await import('tw-elements')).default;
     };
     use();
-      lockLandscapeOrientation();
   }, []);
   return <Component {...pageProps} />
 }
